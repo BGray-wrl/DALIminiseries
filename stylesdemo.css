@@ -1,0 +1,71 @@
+
+
+* {
+color: red;
+}
+
+p {
+color: green;
+}
+
+.my-class {
+    color: blue;
+}
+
+#unique-id {
+    color: orange;
+}
+
+#first-square {
+margin-left: 10px;
+}
+
+#outer-square {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+#inner-square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px yellow solid;
+    padding: 10px;
+    color: white;
+}
+
+#flex-demo{
+    margin: 10rem 0;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: last baseline; 
+    /* justify-content: space-between;  Handles how elements appear between flex direction  */
+}
+
+.hidden {
+    display: none;
+  }
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: sandybrown;
+    color: black;
+    text-align: center;
+    text-color: black;
+    margin-left: 20px
+}
+
+button:hover{
+    background-color: darkred;
+    transform: scale(1.2);
+}
